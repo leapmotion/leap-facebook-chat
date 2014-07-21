@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Leap Facebook Chat",
+  "description": "Add hands to your facebook chat.",
+  "version": "0.1",
+
+  "permissions": [
+    "https://www.facebook.com/*"
+  ],
+  "content_scripts": [{
+    "matches": ["https://www.facebook.com/*"],
+    "js": [
+      "javascripts/lib/jquery-2.1.1.min.js",
+      "javascripts/main.js"
+    ],
+    "run_at": "document_end"
+  }]
+}
