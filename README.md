@@ -1,3 +1,6 @@
+![https://s3.amazonaws.com/uploads.hipchat.com/28703/497504/mPSH6KgQRjRbBR7/Screenshot%202014-08-02%2020.28.11.png](https://s3.amazonaws.com/uploads.hipchat.com/28703/497504/mPSH6KgQRjRbBR7/Screenshot%202014-08-02%2020.28.11.png)
+
+
 When leap is plugged in, broadcast hands to those with the extension
 
 button:
