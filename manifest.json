@@ -11,7 +11,16 @@
   "content_scripts": [{
     "matches": ["https://www.facebook.com/*"],
     "js": [
+      "javascripts/lib/three.min.js",
       "javascripts/lib/jquery-2.1.1.min.js",
+      "javascripts/lib/peer-0.3.js",
+      "javascripts/lib/leap-0.6.1-protocolEvents.js",
+      "javascripts/lib/LeapDataPlotter.js",
+      "javascripts/lib/leap-plugins-0.1.6.js",
+      "javascripts/lib/leap.rigged-hand-0.1.4.js",
+      "javascripts/lib/leapjs.networking-0.1.js",
+      "javascripts/Call.js",
+      "javascripts/LeapChat.js",
       "javascripts/main.js"
     ],
     "run_at": "document_end"
